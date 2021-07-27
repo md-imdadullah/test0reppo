@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+h1{
+    font-size:2.5rem;
+    text-align: center;
+
+}
+a{
+    color:white;
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+
+[class*="col-"]{
+    float:left;
+    padding: 10px;
+}
+[class*="col-"]{
+    width:100%;
+
+}
+/* navbar design start here/ */
+
+
+
+.navbar {
+    background-color:rgb(13, 112, 13);
+    padding:1% 7%;
+    text-align:center;
+
+}
+.navbar h1{
+    color:white;
+    margin: 0;
+    padding-top: 10px;
+}
+.navbar-menu {
+    display:flex;
+    flex-direction:column;
+    text-transform: uppercase;
+
+
+}
+p{
+    font-size:1.2rem;
+    text-align: justify;
+
+}
+.navbar-menu a {
+    background-color:rgb(24, 177, 32);
+    border-radius: 10px;
+    margin:7px 0px 0px 0px;
+    padding: 10px;
+
+
+}
+.navbar-menu a:hover{
+    background-color:rgb(23, 27, 27);
+
+}
+
+.navbar::after{
+    content: "";
+    display:table;
+    clear:both;
+
+
+}
+.nav-logo img{
+    width: 80%;
+}
+/* navbar design end here {} */
+
+
+/* profile design start here     */
+
+.profile{
+    padding:130px 10px;
+    position: relative;
+    text-align: center;
+}
+.profile .top-weather-icon{
+    position:absolute;
+    right: 66px;
+    top: 20px;
+    transition: transform 2s;
+
+}
+.profile .top-weather-icon:hover{
+   transform: rotate(350deg);
+
+}
+.profile-desc h1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:3rem;
+
+}
+.profile-desc p{
+    color: gray;
+    margin:0 auto 22px auto;
+    text-align: center;
+    width: 90%;
+
+
+}
+.profile .bottom-weather-icon{
+    position:absolute;
+    left: 66px;
+    bottom: 10px;
+    transition: transform 2s;
+
+}
+.profile .bottom-weather-icon:hover{
+   transform: rotate(350deg);
+
+}
+.profile::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+
+/* profile design end here {} */
+
+
+
+
+/* About me design start here*/
+
+
+
+
+
+
+
+/* abou me design ends here*/
