@@ -128,7 +128,13 @@ p{
 }
 
 
-
+h1{
+    color:violet;
+}
+h3{
+    color:white;
+    background-color:gray;
+}
 
 /* profile design end here {} */
 
